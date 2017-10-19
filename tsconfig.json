@@ -2,15 +2,19 @@
   "compilerOptions": {
     "lib": [
       "dom",
-      "es2015",
+      "es2017",
       "es2015.promise"
     ],
-    "module": "es2015",
+    "module": "es6",
     "moduleResolution": "node",
     "target": "es5",
     "sourceMap": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true
-  }
+  },
+  "typeRoots": [ "node_modules/@types/"],
+  "types": ["jquery"],
+
+
 }
