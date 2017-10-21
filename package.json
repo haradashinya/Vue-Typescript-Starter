@@ -10,6 +10,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "@types/bootstrap": "^3.3.36",
     "vue": "^2.5.2",
     "vue-router": "> 2.3.1"
   },
