@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>{{ message }}</h1>
+    <h1>Vue-Typescript-Starter</h1>
     <button @click="clicked">Click</button>
   </div>
 </template>
@@ -10,26 +10,16 @@
     name: 'hello',
     data() {
       return {
-        message: 'Vue-Typescript-Starter',
       }
     },
-
     computed: {
-      fullMessage() {
-        return `${this.message} from Typescript`;
-      }
     },
-
-
     created() {
-      console.log('created');
     },
-
     methods: {
       clicked() {
-        console.log('clicked 1');
+        alert('Hello world')
       }
     }
   }
 </script>
-

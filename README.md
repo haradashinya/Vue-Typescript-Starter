@@ -4,8 +4,8 @@ Basic starter based on [Webpack](https://github.com/vuejs-templates/webpack) fro
 
 ## Getting Started
 
-1. git clone https://github.com/haradashinya/Vue-Typescript-Starter.git <project_name>
-2. npm install
-3. npm run dev
+1. `git clone https://github.com/haradashinya/Vue-Typescript-Starter.git <project_name>`
+2. `npm install`
+3. `npm run dev`
 
 
